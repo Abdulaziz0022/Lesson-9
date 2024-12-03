@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 50px;
+}
+header ul {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  list-style: none;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+header ul li:hover {
+  color: #FF6B00;
+}
+header img {
+  background-size: cover;
+}
+header button {
+  width: 150px;
+  height: 60px;
+  background-color: #FF6B00;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+}
+
+.aboutme {
+  background-color: #FFF5EB;
+  height: 700px;
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 100px;
+}
+.aboutme .div1 {
+  width: 60%;
+  background-color: #1C3F3A;
+  height: 100%;
+  padding-left: 180px;
+  color: white;
+}
+.aboutme .div1 h1 {
+  padding-top: 200px;
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+}
+.aboutme .div1 h2 {
+  font-size: 72px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.aboutme .div1 h2 b {
+  color: #CBF521;
+}
+.aboutme .div1 p {
+  width: 90%;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.aboutme .div2 {
+  width: 40%;
+  height: 100%;
+}
+.aboutme .div2 img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.aboutme .div3 {
+  margin-top: 50px;
+}
+.aboutme .div3 .first {
+  width: 150px;
+  height: 50px;
+  background-color: #CBF521;
+  border: none;
+  color: #111F05;
+  margin-right: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.aboutme .div3 .second {
+  width: 150px;
+  height: 50px;
+  background-color: #1C3F3A;
+  border: none;
+  color: white;
+  margin-right: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.education {
+  width: 80%;
+  margin: 0 auto;
+  height: 500px;
+  display: flex;
+  margin-bottom: 100px;
+}
+.education .div5 {
+  width: 45%;
+  height: 100%;
+  margin-right: 250px;
+}
+.education .div5 img {
+  height: 100%;
+  border-radius: 20px;
+}
+.education .div6 {
+  width: 55%;
+}
+.education .div6 h2 {
+  color: #FF6B00;
+  margin-top: 50px;
+}
+.education .div6 h3 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.education .div6 p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.education .div6 h4 {
+  margin-top: 40px;
+  font-size: 30px;
+  color: #1C3F3A;
+  font-weight: 900;
+}
+
+footer {
+  background-color: black;
+  height: 500px;
+  color: white;
+}
+footer div {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+footer div .ul1 {
+  color: white;
+  list-style: none;
+  width: 33%;
+  margin-right: 100px;
+}
+footer div .ul1 li {
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+footer div .ul2 {
+  list-style: none;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+footer div .ul2 li {
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+footer div .ul3 {
+  width: 33%;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 50px;
+  text-align: end;
+  padding-left: 100px;
+}
+footer div .ul3 li {
+  padding: 10px;
+  background-color: #FF6B00;
+  height: 40px;
+  border-radius: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  header {
+    margin-top: 40px;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: left 30px;
+    padding-right: 60px;
+  }
+  header img {
+    transform: scale(0.7);
+  }
+  header .first {
+    display: none;
+  }
+  header button {
+    transform: scale(0.7);
+    margin-left: -40px;
+  }
+  .aboutme {
+    width: 90%;
+    height: 450px;
+    margin-bottom: 40px;
+  }
+  .aboutme .div1 {
+    width: 100%;
+    padding-left: 30px;
+    height: 450px;
+  }
+  .aboutme .div1 h1 {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  .aboutme .div1 h2 {
+    margin-top: 15px;
+    font-size: 45px;
+  }
+  .aboutme .div1 p {
+    font-size: 15px;
+  }
+  .aboutme .div1 .first {
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .aboutme .div1 .second {
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .aboutme .div2 {
+    display: none;
+  }
+  .education {
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 400px;
+    height: 100px;
+  }
+  .education .div5 {
+    width: 90%;
+    margin-left: 30px;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+  .education .div5 img {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 30px;
+  }
+  .education .div6 {
+    text-align: center;
+    margin-left: 60px;
+  }
+  .education .div6 h2 {
+    margin-top: 20px;
+  }
+  .education .div6 p {
+    display: none;
+  }
+  footer {
+    width: 90%;
+    margin-top: 60px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  footer div {
+    display: block;
+  }
+  footer div .ul1 .one {
+    display: none;
+    width: 100%;
+  }
+  footer div .ul2 {
+    margin-left: 0px;
+  }
+  footer div .ul3 {
+    margin-top: 20px;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: none;
+    padding-bottom: 30px;
+  }
+}/*# sourceMappingURL=main.css.map */
