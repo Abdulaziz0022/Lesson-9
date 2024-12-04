@@ -7,6 +7,7 @@
 .container {
   margin: 0 auto;
   max-width: 1700px;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -23,7 +24,7 @@ header ul {
   font-weight: 500;
   list-style: none;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 header ul li:hover {
@@ -44,7 +45,6 @@ header button {
 }
 
 .aboutme {
-  background-color: #FFF5EB;
   height: 700px;
   margin-top: 30px;
   display: flex;
@@ -133,7 +133,7 @@ header button {
 }
 .education .div6 h2 {
   color: #FF6B00;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .education .div6 h3 {
   margin-top: 20px;
@@ -203,14 +203,16 @@ footer div .ul3 li {
   border-radius: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 1px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
   header {
     margin-top: 40px;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
     padding: left 30px;
-    padding-right: 60px;
   }
   header img {
     transform: scale(0.7);
@@ -223,14 +225,16 @@ footer div .ul3 li {
     margin-left: -40px;
   }
   .aboutme {
-    width: 90%;
-    height: 450px;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 40px;
     margin-bottom: 40px;
   }
   .aboutme .div1 {
-    width: 100%;
+    padding-top: 40px;
+    width: 120%;
     padding-left: 30px;
-    height: 450px;
+    height: 500px;
   }
   .aboutme .div1 h1 {
     padding-top: 20px;
@@ -247,6 +251,7 @@ footer div .ul3 li {
     width: 130px;
     height: 40px;
     font-size: 15px;
+    margin-right: 20px;
   }
   .aboutme .div1 .second {
     width: 130px;
@@ -265,10 +270,10 @@ footer div .ul3 li {
     height: 100px;
   }
   .education .div5 {
-    width: 90%;
-    margin-left: 30px;
+    width: 78%;
     height: 300px;
     margin-bottom: 40px;
+    margin: 0 auto;
   }
   .education .div5 img {
     width: 300px;
@@ -277,8 +282,9 @@ footer div .ul3 li {
     margin-bottom: 30px;
   }
   .education .div6 {
-    text-align: center;
-    margin-left: 60px;
+    margin-top: 20px;
+    width: 78%;
+    margin: 0 auto;
   }
   .education .div6 h2 {
     margin-top: 20px;
@@ -287,7 +293,7 @@ footer div .ul3 li {
     display: none;
   }
   footer {
-    width: 90%;
+    width: 100%;
     margin-top: 60px;
     height: auto;
     box-sizing: border-box;
@@ -302,6 +308,9 @@ footer div .ul3 li {
   }
   footer div .ul2 {
     margin-left: 0px;
+  }
+  footer div .ul2 li {
+    font-size: 20px;
   }
   footer div .ul3 {
     margin-top: 20px;
