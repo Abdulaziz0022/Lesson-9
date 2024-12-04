@@ -1,0 +1,122 @@
+.feedback {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 30px;
+
+    .part1 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        gap: 50px;
+    }
+
+    .card1 {
+        background-color: #FFFAF7;
+        padding: 20px;
+        border-radius: 20px;
+
+        .point {
+            display: flex;
+
+            ul {
+                list-style: none;
+                margin-left: 30px;
+                padding-top: 15px;
+
+                li:first-child {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                li:last-child {
+                    padding-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        p {
+            padding-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+
+    .card2 {
+        background-color: #FFFAF7;
+        padding: 20px;
+        border-radius: 20px;
+
+        .point2 {
+            display: flex;
+
+            ul {
+                list-style: none;
+                margin-left: 30px;
+                padding-top: 15px;
+
+                li:first-child {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                li:last-child {
+                    padding-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        p {
+            padding-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+
+    .card3 {
+        background-color: #FFFAF7;
+        padding: 20px;
+        border-radius: 20px;
+
+        .point3 {
+            display: flex;
+
+            ul {
+                list-style: none;
+                margin-left: 30px;
+                padding-top: 15px;
+
+                li:first-child {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                li:last-child {
+                    padding-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        p {
+            padding-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+
+    h2 {
+        color: #FF6B00;
+        text-align: center;
+        font-size: 30px;
+
+        i {
+            padding-right: 20px;
+        }
+    }
+}

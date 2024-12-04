@@ -5,9 +5,9 @@
 }
 
 .container {
-  margin: 0 auto;
   max-width: 1700px;
   font-family: "Roboto", sans-serif;
+  width: 120vw;
 }
 
 header {
@@ -17,28 +17,31 @@ header {
   display: flex;
   margin-top: 50px;
 }
+
 header ul {
   display: flex;
   gap: 40px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   list-style: none;
   align-items: center;
-  font-size: 20px;
   font-weight: 700;
 }
+
 header ul li:hover {
   color: #FF6B00;
 }
+
 header img {
   background-size: cover;
 }
+
 header button {
   width: 150px;
   height: 60px;
   background-color: #FF6B00;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   border: none;
   border-radius: 10px;
@@ -50,6 +53,7 @@ header button {
   display: flex;
   margin-bottom: 100px;
 }
+
 .aboutme .div1 {
   width: 60%;
   background-color: #1C3F3A;
@@ -57,38 +61,46 @@ header button {
   padding-left: 180px;
   color: white;
 }
+
 .aboutme .div1 h1 {
-  padding-top: 200px;
+  padding-top: 150px;
   font-size: 50px;
   font-weight: 800;
   color: white;
 }
+
 .aboutme .div1 h2 {
   font-size: 72px;
   font-weight: 600;
   margin-top: 30px;
 }
+
 .aboutme .div1 h2 b {
   color: #CBF521;
 }
+
 .aboutme .div1 p {
   width: 90%;
   font-size: 20px;
   font-weight: 500;
   margin-top: 30px;
 }
+
 .aboutme .div2 {
   width: 40%;
   height: 100%;
 }
+
 .aboutme .div2 img {
   width: 100%;
   height: 100%;
   background-size: cover;
 }
+
 .aboutme .div3 {
   margin-top: 50px;
 }
+
 .aboutme .div3 .first {
   width: 150px;
   height: 50px;
@@ -100,6 +112,7 @@ header button {
   font-size: 18px;
   font-weight: 700;
 }
+
 .aboutme .div3 .second {
   width: 150px;
   height: 50px;
@@ -119,35 +132,42 @@ header button {
   display: flex;
   margin-bottom: 100px;
 }
+
 .education .div5 {
-  width: 45%;
+  width: 60%;
   height: 100%;
-  margin-right: 250px;
+  margin-right: 50px;
 }
+
 .education .div5 img {
   height: 100%;
   border-radius: 20px;
 }
+
 .education .div6 {
-  width: 55%;
+  width: 40%;
 }
+
 .education .div6 h2 {
   color: #FF6B00;
-  margin-top: 20px;
+  margin-top: 40px;
 }
+
 .education .div6 h3 {
-  margin-top: 20px;
-  font-size: 30px;
+  margin-top: 10px;
+  font-size: 25px;
   font-weight: 800;
 }
+
 .education .div6 p {
-  margin-top: 30px;
-  font-size: 18px;
+  margin-top: 20px;
+  font-size: 16px;
   font-weight: 500;
 }
+
 .education .div6 h4 {
-  margin-top: 40px;
-  font-size: 30px;
+  margin-top: 20px;
+  font-size: 25px;
   color: #1C3F3A;
   font-weight: 900;
 }
@@ -157,6 +177,7 @@ footer {
   height: 500px;
   color: white;
 }
+
 footer div {
   width: 80%;
   margin: 0 auto;
@@ -164,27 +185,32 @@ footer div {
   display: flex;
   justify-content: space-between;
 }
+
 footer div .ul1 {
   color: white;
   list-style: none;
   width: 33%;
   margin-right: 100px;
 }
+
 footer div .ul1 li {
   padding-bottom: 30px;
   font-size: 20px;
   font-weight: 600;
 }
+
 footer div .ul2 {
   list-style: none;
   margin-right: 50px;
   margin-left: 100px;
 }
+
 footer div .ul2 li {
   padding-bottom: 30px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
+
 footer div .ul3 {
   width: 33%;
   list-style: none;
@@ -196,17 +222,316 @@ footer div .ul3 {
   text-align: end;
   padding-left: 100px;
 }
+
 footer div .ul3 li {
   padding: 10px;
   background-color: #FF6B00;
-  height: 40px;
+  height: 50px;
+  width: 40px;
   border-radius: 10px;
 }
 
-@media (min-width: 1px) and (max-width: 768px) {
+.feedback {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.feedback .part1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.feedback .card1 {
+  background-color: #FFFAF7;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.feedback .card1 .point {
+  display: flex;
+}
+
+.feedback .card1 .point ul {
+  list-style: none;
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.feedback .card1 .point ul li:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feedback .card1 .point ul li:last-child {
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.feedback .card1 p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.feedback .card2 {
+  background-color: #FFFAF7;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.feedback .card2 .point2 {
+  display: flex;
+}
+
+.feedback .card2 .point2 ul {
+  list-style: none;
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.feedback .card2 .point2 ul li:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feedback .card2 .point2 ul li:last-child {
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.feedback .card2 p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.feedback .card3 {
+  background-color: #FFFAF7;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.feedback .card3 .point3 {
+  display: flex;
+}
+
+.feedback .card3 .point3 ul {
+  list-style: none;
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.feedback .card3 .point3 ul li:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.feedback .card3 .point3 ul li:last-child {
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.feedback .card3 p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.feedback h2 {
+  color: #FF6B00;
+  text-align: center;
+  font-size: 30px;
+}
+
+.feedback h2 i {
+  padding-right: 20px;
+}
+
+.contact {
+  padding-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  margin-bottom: 100px;
+}
+
+.contact .contact1 {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  border-radius: 20px;
+  padding-top: 50px;
+  border: 2px solid #FF6B00;
+}
+
+.contact .contact1 h2 {
+  color: #FF6B00;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact .contact3 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact .contact3 input {
+  margin-bottom: 50px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 30px;
+  border-radius: 20px;
+  border: 2px solid #0F081E;
+  background-color: #E9D2C5;
+}
+
+.contact .contact3 textarea {
+  resize: none;
+  background-color: #E9D2C5;
+  height: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  margin-bottom: 40px;
+  border: 2px solid #0F081E;
+}
+
+.contact .contact3 button {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #A87046;
+  color: white;
+  box-shadow: 0 0 10px 0 #A87046;
+}
+
+.skills {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.skills .box {
+  width: 50%;
+}
+
+.skills .box h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1C70A7;
+  text-align: center;
+}
+
+.skills .box .skill1 {
+  margin-top: 60px;
+  display: flex;
+  gap: 80px;
+  padding-left: 20px;
+}
+
+.skills .box .skill1 h2 {
+  background-color: #CAF522;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 35px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.skills .box .skill1 p {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.skills .box .skill2 {
+  margin-top: 30px;
+  display: flex;
+  gap: 80px;
+  padding-left: 20px;
+}
+
+.skills .box .skill2 h2 {
+  background-color: #CAF522;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 35px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.skills .box .skill2 p {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.skills .box .skill3 {
+  margin-top: 30px;
+  display: flex;
+  gap: 80px;
+  padding-left: 20px;
+}
+
+.skills .box .skill3 h2 {
+  background-color: #CAF522;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 35px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.skills .box .skill3 p {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.skills .box1 {
+  width: 50%;
+  background-size: cover;
+}
+
+.skills .box1 img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
   .container {
     width: 100%;
+    box-sizing: border-box;
   }
+
   header {
     margin-top: 40px;
     padding: 0;
@@ -214,54 +539,66 @@ footer div .ul3 li {
     box-sizing: border-box;
     padding: left 30px;
   }
+
   header img {
     transform: scale(0.7);
   }
+
   header .first {
     display: none;
   }
+
   header button {
     transform: scale(0.7);
     margin-left: -40px;
   }
+
   .aboutme {
     width: 100%;
     height: 500px;
     margin-bottom: 40px;
     margin-bottom: 40px;
   }
+
   .aboutme .div1 {
     padding-top: 40px;
     width: 120%;
     padding-left: 30px;
     height: 500px;
   }
+
   .aboutme .div1 h1 {
     padding-top: 20px;
     font-size: 30px;
   }
+
   .aboutme .div1 h2 {
     margin-top: 15px;
     font-size: 45px;
   }
+
   .aboutme .div1 p {
     font-size: 15px;
   }
+
   .aboutme .div1 .first {
     width: 130px;
     height: 40px;
     font-size: 15px;
     margin-right: 20px;
   }
+
   .aboutme .div1 .second {
     width: 130px;
     height: 40px;
     font-size: 15px;
     font-weight: 600;
   }
+
   .aboutme .div2 {
     display: none;
   }
+
   .education {
     width: 100%;
     box-sizing: border-box;
@@ -269,29 +606,35 @@ footer div .ul3 li {
     margin-bottom: 400px;
     height: 100px;
   }
+
   .education .div5 {
     width: 78%;
     height: 300px;
     margin-bottom: 40px;
     margin: 0 auto;
   }
+
   .education .div5 img {
     width: 300px;
     height: 300px;
     background-size: cover;
     margin-bottom: 30px;
   }
+
   .education .div6 {
     margin-top: 20px;
     width: 78%;
     margin: 0 auto;
   }
+
   .education .div6 h2 {
     margin-top: 20px;
   }
+
   .education .div6 p {
     display: none;
   }
+
   footer {
     width: 100%;
     margin-top: 60px;
@@ -299,19 +642,24 @@ footer div .ul3 li {
     box-sizing: border-box;
     padding: 0;
   }
+
   footer div {
     display: block;
   }
+
   footer div .ul1 .one {
     display: none;
     width: 100%;
   }
+
   footer div .ul2 {
     margin-left: 0px;
   }
+
   footer div .ul2 li {
     font-size: 20px;
   }
+
   footer div .ul3 {
     margin-top: 20px;
     padding-left: 0px;
@@ -319,4 +667,126 @@ footer div .ul3 li {
     text-align: none;
     padding-bottom: 30px;
   }
-}/*# sourceMappingURL=main.css.map */
+
+  .feedback {
+    padding-top: 40px;
+    font-size: 20px;
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 40px;
+  }
+
+  .feedback .part1 {
+    margin-top: 80px;
+    display: inline;
+    padding-top: 40px;
+  }
+
+  .feedback .part1 .card1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .feedback .part1 .card2 {
+    margin-bottom: 30px;
+  }
+
+  .contact {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact .contact1 {
+    width: 100%;
+  }
+
+  .contact .contact1 h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .contact .contact3 input {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .contact .contact3 textarea {
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 20px;
+  }
+
+  .skills {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .skills .box h3 {
+    width: auto;
+    width: 350px;
+    font-size: 30px;
+  }
+
+  .skills .box .skill1 {
+    gap: 20px;
+    padding-left: 0px;
+  }
+
+  .skills .box .skill1 h2 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .skills .box .skill1 p {
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .skills .box .skill2 {
+    gap: 20px;
+    padding-left: 0px;
+  }
+
+  .skills .box .skill2 h2 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .skills .box .skill2 p {
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+    width: 200px;
+  }
+
+  .skills .box .skill3 {
+    gap: 20px;
+    padding-left: 0px;
+  }
+
+  .skills .box .skill3 h2 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .skills .box .skill3 p {
+    padding-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .skills .box1 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
